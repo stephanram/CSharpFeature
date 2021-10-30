@@ -1,0 +1,9 @@
+dotnet new console --framework "net5.0" -o CSharpFeature
+
+dotnet new gitignore
+
+git init
+
+git remote add origin https://github.com/stephanram/CSharpFeature.git
+
+git push -u origin master
